@@ -1,0 +1,77 @@
+#if statement 
+a=10
+b=20
+if a>b:
+    print("a is greater than b")
+if b>a:
+    print("b is greater than a")
+#if else condition
+if a>b:
+    print("a is graeter than b")
+else:
+    print("a is not greater than b")
+    
+#else if condition (elif)
+a=10
+b=20
+c=30
+if (a>b & a>c):
+    print("a is greatest")
+elif(b>a & b>c):
+    print("b is the greatest")
+else:
+    print("c is the greatest")
+    
+#tuple
+tup1=(1,2,3,4)
+if 2 in tup1:
+    print("2 is present in tup1")
+if 6 in tup1:
+    print("6 is present in tup1")
+else:
+    print("6 is not present in tup1")
+    
+#list
+l1=[1,"anusha",True,3.14]
+if 1 in l1:
+    print("1 is present in l1")
+if False in l1:
+    print("False is present in l1")
+else:
+    print("False is not present in l1")
+    
+l2=[1,2,3,4,5]
+if l2[3]==4:
+   print(l2[3]+100)
+   
+if l2[2]==2:
+    print(l2[2]+100)
+else:
+    print(l2[2]+200)
+    
+#if with dictionary
+d1={"a":1,"b":2,"c":3}
+if d1["b"]==2:
+    print(d1["b"]+100)
+if d1["c"]==1:
+    print(d1["c"]+100)
+else:
+    print(d1["c"]+500)
+--------------------------------------------------------------------------------------------------------------------------
+output:
+b is greater than a
+a is not greater than b
+c is the greatest
+2 is present in tup1
+6 is not present in tup1
+1 is present in l1
+False is not present in l1
+104
+203
+102
+503
+> 
+
+    
+
+
